@@ -2,7 +2,7 @@
 ## Introduction
 
 The precisely calculation of Javascript
-
+用于js的精确的四则运算
 
 ## Install
 
