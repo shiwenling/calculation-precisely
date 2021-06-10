@@ -18,17 +18,17 @@ The precisely calculation of Javascript
 
 
 ```
-import calculationPrecisely from 'calculation-precisely'
+import calculation from 'calculation-precisely'
 
 or 
 
-const calculationPrecisely = require('calculation-precisely')
+const calculation = require('calculation-precisely')
 
 
-calculationPrecisely.add(5.10, 100, '+')    // 105.10
-calculationPrecisely.sub(5.10, 1, '-')    // 4.10
-calculationPrecisely.mul(5.10, 100, '*')    // 510
-calculationPrecisely.sur(510, 100, '/')    // 5.10
+calculation(5.10, 100, '+')    // 105.10
+calculation(5.10, 1, '-')    // 4.10
+calculation(5.1, 100, '*')    // 51
+calculation(510, 100, '/')    // 5.10
 ```
 
 
